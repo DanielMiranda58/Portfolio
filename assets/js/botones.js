@@ -1,7 +1,10 @@
 const linkItem=document.getElementsByClassName("item")
 const about=document.getElementById("secction-about")
 const home=document.getElementById("seccion-home")
+<<<<<<< HEAD
 const portfolio=document.getElementById("secction-portfolio")
+=======
+>>>>>>> 4af976817f7d288dd7d2931b3719f6b94cbc238d
 
 for(let i=0;i<linkItem.length;i++){
     const elements=linkItem[i];
@@ -15,8 +18,11 @@ for(let i=0;i<linkItem.length;i++){
         home.classList.add("active");
         about.classList.remove("active");
         about.classList.add("displayNone");
+<<<<<<< HEAD
         portfolio.classList.remove("displayNone")
         portfolio.classList.add("displayNone");
+=======
+>>>>>>> 4af976817f7d288dd7d2931b3719f6b94cbc238d
         
     }else if (elements.id==="labout"){
        
@@ -24,6 +30,7 @@ for(let i=0;i<linkItem.length;i++){
         home.classList.remove("active");
         home.classList.add("displayNone");
         about.classList.add("active");
+<<<<<<< HEAD
         portfolio.classList.remove("active");
         portfolio.classList.add("displayNone");
 
@@ -38,6 +45,10 @@ for(let i=0;i<linkItem.length;i++){
         
     }
 
+=======
+
+    }
+>>>>>>> 4af976817f7d288dd7d2931b3719f6b94cbc238d
         
     })
 }
