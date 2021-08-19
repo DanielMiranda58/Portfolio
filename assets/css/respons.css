@@ -1,0 +1,37 @@
+@media (max-width: 1324px){
+.divinicio {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 2rem;
+    padding: 0;
+   
+
+}
+.seccion1{
+    width: 100%;
+    overflow: hidden;
+}
+.seccion2{
+    width: 100%;
+    overflow: hidden;
+}
+.menu{
+    width: 100%;
+}
+.nav-ul{
+    width: 100%;
+    display:block;
+}
+.div-main{
+    width: 80%;
+    display:block;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.div-span img {
+       
+        margin-left: 24rem;
+}
+}
+
