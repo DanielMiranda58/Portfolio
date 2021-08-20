@@ -3,8 +3,9 @@
     width: 100%;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-left: 2rem;
-    padding: 0;
+    margin:0;
+    padding: 60px;
+    border: solid 1px #ffffff;
    
 
 }
@@ -35,3 +36,12 @@
 }
 }
 
+@media(max-width: 695px){
+    .divinicio {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin:0;
+        padding: 0;
+    }
+}
